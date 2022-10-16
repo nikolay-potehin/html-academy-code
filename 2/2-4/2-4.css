@@ -1,0 +1,38 @@
+body {
+  width: 550px;
+  margin: 0;
+  padding: 0 10px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+p {
+  width: 550px;
+  padding: 15px 20px;
+  color: black;
+}
+
+.header-text {
+  background-color: #333333;
+  color: white;
+  width: 460px;
+}
+
+.header-text a {
+  color: orange;
+}
+
+.new {
+  border: 5px solid orange;
+}
+
+.gallery img {
+  margin-right: 10px;
+  vertical-align: top;
+  border-radius: 20px;
+}
