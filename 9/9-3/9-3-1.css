@@ -1,0 +1,56 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.tabs-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 180px;
+}
+
+.tab {
+  margin-bottom: 15px;
+}
+
+.tab:last-child {
+  margin-bottom: 0;
+}
+
+.active {
+  align-self: flex-end;
+}
+
+.content {
+  padding: 20px 30px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  order: -1;
+}
+
+.author {
+  margin-bottom: 15px;
+  align-self: flex-start;
+  order: -2;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.reply-link {
+  margin-top: 15px;
+}
