@@ -1,0 +1,38 @@
+body, ul {
+  margin: 0;
+}
+
+.door {
+  width: 100px;
+}
+
+.doors-list {
+  margin: 0 auto;
+  padding: 20px 10px 40px;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 550px;
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.note-1 {
+  width: 150px;
+  margin-right: 25px;
+}
+
+.note-2 {
+  width: 200px;
+  margin: auto 0;
+}
+
+.note-3 {
+  width: 100px;
+  margin-top: auto;
+  margin-left: auto;
+}
